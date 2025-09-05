@@ -52,8 +52,13 @@ StartDB-2025/
    git clone https://github.com/belzebells/desafio-belzebells-2025.git
    cd desafio-belzebells-2025
   2. Instale as dependências:
+  ```bash
      npm install
-  3. Execute os testes:
+
+
+
+
+4. Execute os testes:
      npm test
 
 ✅ Exemplo de saída dos testes
