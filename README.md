@@ -1,68 +1,35 @@
-# 🐾 Desafio Abrigo de Animais 2025  
+# 🐾 Desafio Abrigo de Animais
 
-![Node.js](https://img.shields.io/badge/node-18.x-green)  
-![Jest](https://img.shields.io/badge/tests-passing-brightgreen)  
-![GitHub repo size](https://img.shields.io/github/repo-size/belzebells/desafio-belzebells-2025)  
-![GitHub last commit](https://img.shields.io/github/last-commit/belzebells/desafio-belzebells-2025)  
-![License](https://img.shields.io/badge/license-MIT-blue)  
-
-_
-
-# 🐾 Desafio Abrigo de Animais 2025  
-
-Este projeto foi desenvolvido como parte de um **desafio técnico**.  
-O objetivo é simular um sistema de adoção em um **Abrigo de Animais**, respeitando regras de afinidade com brinquedos, limites de adoção e casos especiais.  
+Este repositório contém a solução do desafio **Abrigo de Animais**, onde a missão é encontrar pessoas aptas a levar animais para casa respeitando um conjunto de regras.
 
 ---
 
-## 🧩 Tecnologias utilizadas
-- [Node.js](https://nodejs.org/)  
-- [Jest](https://jestjs.io/) para testes automatizados  
-- Git + GitHub  
+## 📋 Regras do Desafio
 
----
-
-## 📜 Regras do sistema
-
-1. Cada animal tem uma lista de brinquedos favoritos (em ordem).  
-2. Uma pessoa pode adotar no máximo **3 animais**.  
-3. Cada pessoa pode adotar **no máximo 1 gato**.  
-4. O **Loco (jabuti)** só pode ser adotado se tiver **companhia**.  
-5. Animais ou brinquedos inválidos são rejeitados.  
-
----
-
-## 📂 Estrutura do projeto
-
-StartDB-2025/
-│── src/
-│ ├── abrigo-animais.js # Código principal
-│ ├── abrigo-animais.test.js # Testes automatizados
-│── package.json
-│── README.md
-│── .gitignore
-
+- O animal vai para a pessoa que mostrar todos seus brinquedos favoritos **na ordem desejada**.  
+- Uma pessoa pode intercalar brinquedos que o animal queira ou não, desde que estejam na ordem desejada.  
+- **Gatos não dividem** seus brinquedos (só um gato por pessoa).  
+- Se ambas as pessoas tiverem condições de adoção, ninguém fica com o animal (vai para o abrigo).  
+- Uma pessoa não pode levar mais de **três animais**.  
+- **Loco** (jabuti) não se importa com a ordem, mas só pode ser adotado se tiver outro animal como companhia.  
 
 ---
 
 ## 🚀 Como rodar o projeto
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/belzebells/desafio-belzebells-2025.git
-   cd desafio-belzebells-2025
-  2. Instale as dependências:
-  ```bash
-     npm install
+1. Clone este repositório
+´´´bash
+git clone https://github.com/belzebells/desafio-belzebells-2025.git
+cd desafio-belzebells-2025
 
+3. Instale as dependências:
+´´´bash npm install
 
-
-
-4. Execute os testes:
-     npm test
+4. Execute os testes
+´´´bash npm test
 
 ✅ Exemplo de saída dos testes
- PASS  src/abrigo-animais.test.js
+PASS  src/abrigo-animais.test.js
   Abrigo de Animais
     ✓ Deve rejeitar animal inválido
     ✓ Deve encontrar pessoa para um animal
@@ -73,6 +40,24 @@ StartDB-2025/
     ✓ Deve impedir que uma pessoa adote mais de 1 gato
     ✓ Deve adotar o Loco apenas se tiver companhia
 
-📖 Autor
-Feito com ❤️ por belzebells
- 
+🛠️ Tecnologias utilizadas
+
+Node.js
+Jest para os testes automatizados
+Git e GitHub para versionamento e entrega
+
+📌 Estrutura do projeto
+📦 desafio-belzebells-2025
+ ┣ 📂 src
+ ┃ ┣ 📜 abrigo-animais.js        # Implementação da lógica
+ ┃ ┗ 📜 abrigo-animais.test.js   # Testes automatizados
+ ┣ 📜 package.json
+ ┗ 📜 README.md
+
+✨ Autora
+Desenvolvido por belzebells 💜
+
+
+
+
+
