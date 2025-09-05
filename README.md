@@ -17,47 +17,8 @@ Este repositório contém a solução do desafio **Abrigo de Animais**, onde a m
 
 ## 🚀 Como rodar o projeto
 
-1. Clone este repositório
-´´´bash
+1. Clone este repositório:
+```bash
 git clone https://github.com/belzebells/desafio-belzebells-2025.git
 cd desafio-belzebells-2025
-
-3. Instale as dependências:
-´´´bash npm install
-
-4. Execute os testes
-´´´bash npm test
-
-✅ Exemplo de saída dos testes
-PASS  src/abrigo-animais.test.js
-  Abrigo de Animais
-    ✓ Deve rejeitar animal inválido
-    ✓ Deve encontrar pessoa para um animal
-    ✓ Deve encontrar pessoa para um animal intercalando brinquedos
-    ✓ Deve rejeitar brinquedo inválido
-    ✓ Deve rejeitar animal duplicado na ordem
-    ✓ Deve limitar adoção a no máximo 3 animais por pessoa
-    ✓ Deve impedir que uma pessoa adote mais de 1 gato
-    ✓ Deve adotar o Loco apenas se tiver companhia
-
-🛠️ Tecnologias utilizadas
-
-Node.js
-Jest para os testes automatizados
-Git e GitHub para versionamento e entrega
-
-📌 Estrutura do projeto
-📦 desafio-belzebells-2025
- ┣ 📂 src
- ┃ ┣ 📜 abrigo-animais.js        # Implementação da lógica
- ┃ ┗ 📜 abrigo-animais.test.js   # Testes automatizados
- ┣ 📜 package.json
- ┗ 📜 README.md
-
-✨ Autora
-Desenvolvido por belzebells 💜
-
-
-
-
 
